@@ -9,6 +9,7 @@ void setup() {
   shadow();
   head();
   tailAndLegs();
+  shellRidges();
   shell();
   
 
@@ -21,7 +22,7 @@ void draw() {
 
 void shell() {
   noStroke();
-  shellRidges();
+  //shellRidges();
   pushMatrix();
   translate(-40, 40);
   rotate(radians(-10));
